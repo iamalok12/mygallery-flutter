@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// A custom search bar widget with a callback function that triggers when the search icon is tapped.
 class CustomSearchBar extends StatefulWidget {
   final Function(String keyword) onSearch;
   const CustomSearchBar({super.key, required this.onSearch});
